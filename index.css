@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", serif;
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+.heading {
+    margin: 1em 0 0.5em 0;
+    color: aliceblue;
+    font-weight: normal;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px blue, 0 3px #777;
+}
+.info {
+    width: 100%;
+    height: calc(100vh - 7rem);
+    background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)), url(images/header.jpg) center no-repeat ;
+    background-size: cover;
+    position: relative;
+    perspective: 100rem;
+    color:aliceblue;
+}
+.image {
+    float: right;
+    border-radius: 8px;
+    padding: 5px;
+}
+.operations {
+    width: 100%;
+    height: calc(100vh - 7rem);
+    background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)), url(images/2pg.webp) center no-repeat;
+    background-size: cover;
+    position: relative;
+    perspective: 100rem;
+}
+.result {
+    font-size: 18px;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+button {
+    padding: 6px;
+    margin: 4px;
+}
+
+
+

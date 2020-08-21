@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+
+    <div class=" info">
+        <div class="heading"><center>Stack</center></div>
+        <br>
+        <h2>What is Stack?</h2>
+        <img class="image" src="images/Stack.png"></img>
+
+        <p>
+            In computing, a stack is a data structure used to store a collection of objects.
+            Individual items can be added and stored in a stack using a push operation.
+            Objects can be retrieved using a pop operation, which removes an item from the stack.
+        </p>
+
+        <p>
+            When an object is added to a stack, it is placed on the top of all previously entered items.
+            When an item is removed, it can either be removed from the top or bottom of the stack.
+            A stack in which items are removed the top is considered a "LIFO" (Last In, First Out) stack.
+            You can picture a LIFO stack as a deck of cards where you lay individual cards on the deck,
+            then draw cards from the top.
+        </p>
+        <p>
+            Stacks have several applications in commuter programming. LIFO stacks, for example, can be used to retrieve recently
+            used objects, from a cache. FIFO stacks may be used to ensure data is retrieved in the order it was
+            entered, which may be used for processing data in a queue. While stacks are commonly used by software
+            programmers, you will typically not notice them while using a program.
+        </p>
+    </div>
+    <div class="operations ">
+        <h2> Stack Operations</h2>
+          
+
+               <ul>
+                   <li>
+                       <b>Push</b> - Push operation refers to inserting an element in the stack. Since there’s only one position at
+                       which the new element can be inserted — Top of the stack, the new element is inserted at the top of the
+                       stack.
+                    </li>
+                    <li>
+                        <b>Pop</b> - Pop operation refers to the removal of an element. Again, since we only have access to the element
+                        at the top of the stack, there’s only one element that we can remove. We just remove the top of the stack.
+                        
+                    </li>
+                    <li>
+                        <b>Peek</b> - Peek operation allows the user to see the element on the top of the stack. The stack is not modified
+                        in any manner in this operation.
+                    </li>
+                    <li>
+                        <b>isEmpty</b> - To prevent performing operations on an empty stack, the programmer is required to internally
+                        maintain the size of the stack which will be updated during push and pop operations accordingly.
+                        isEmpty() conventionally returns a boolean value: True if size is 0, else False.
+                    </li>
+                </ul>
+               <a href="try.html"> Try it Yourself >> </a>    
+            </div>
+</body>
+</html>

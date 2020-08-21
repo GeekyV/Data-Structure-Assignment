@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", serif;
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #eee;
+    margin: 3.5rem;
+    box-shadow: 0 1rem 3rem #555;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.result {
+    font-size: 18px;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.pushBtn {
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 16px;
+    font-family: "Comic Sans MS", serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+    .pushBtn:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+.popBtn {
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 16px;
+    font-family: "Comic Sans MS", serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+    .popBtn:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+
+.peekbtn {
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 16px;
+    font-family: "Comic Sans MS", serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+    .peekbtn:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+
+.isEmptybtn {
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 16px;
+    font-family: "Comic Sans MS", serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+    .isEmptybtn:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+
+.Btn {
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 16px;
+    font-family: "Comic Sans MS", serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+    .Btn:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+
+.stackPush {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
